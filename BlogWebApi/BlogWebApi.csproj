@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20190524183248_Initial.cs" />
+    <Compile Remove="Migrations\20190524183248_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190525192136_Initial.cs" />
+    <Compile Remove="Migrations\20190525192136_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190526091218_Initial.cs" />
+    <Compile Remove="Migrations\20190526091218_Initial.Designer.cs" />
+    <Compile Remove="Migrations\20190526201854_initial.cs" />
+    <Compile Remove="Migrations\20190526201854_initial.Designer.cs" />
+    <Compile Remove="Migrations\20190527200622_initial.cs" />
+    <Compile Remove="Migrations\20190527200622_initial.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="6.0.0" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Cors" Version="5.2.7" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.1.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.1" />
+  </ItemGroup>
+
+</Project>
